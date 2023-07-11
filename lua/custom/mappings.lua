@@ -9,6 +9,8 @@ M.general = {
     ["<C-u>"] = { "<C-u>zz", "center after Ctrl+u" },
     ["n"] = { "nzzzv", "on next word center screen", opts = { nowait = true } },
     ["N"] = { "Nzzzv", "on previous word center screen", opts = { nowait = true } },
+    ["H"] = { "^", "Move to the start of the line", opts = { nowait = true } },
+    ["L"] = { "$", "Move to the end of the line", opts = { nowait = true } },
 
     -- Find a replace a word
     ["<leader>fr"] = {
