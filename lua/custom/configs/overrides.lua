@@ -36,7 +36,6 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
-    "jsonls",
 
     -- c/cpp stuff
     "clangd",
@@ -46,7 +45,13 @@ M.mason = {
     "rust-analyzer",
 
     -- SQL
-    "sqlls"
+    "sqlls",
+
+    -- Python
+    "mypy",
+    "ruff",
+    "pyright",
+    "black",
   },
 }
 

@@ -22,6 +22,11 @@ local sources = {
   b.formatting.sqlfluff.with {
     extra_args = { "--dialect", "mysql" },
   },
+
+  -- python
+  b.formatting.black,
+  b.diagnostics.mypy,
+  b.diagnostics.ruff,
 }
 
 null_ls.setup {
